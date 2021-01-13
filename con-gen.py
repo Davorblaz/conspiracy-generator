@@ -21,6 +21,7 @@ def main():
         ("The Jews", True),
         ("The Clintons", True),
         ("The Left", False)
+        ("Flat Earth model", True)
     ]
 
     what = [
@@ -41,6 +42,7 @@ def main():
         "high-fructose corn syrup",
         "realistic clones",
         "bitcoin"
+        "Earth is flat "
     ]
 
     why = [
@@ -58,6 +60,7 @@ def main():
         "hide the aliens",
         "communicate with dolphins",
         "bring back Michael Jackson"
+        "because it is not round"
     ]
     
     who_num = random.randint(0,(len(who) - 1))
